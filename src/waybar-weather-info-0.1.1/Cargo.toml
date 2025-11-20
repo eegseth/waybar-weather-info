@@ -11,6 +11,6 @@ clap = { version = "4.5.21", features = ["derive"] }
 reqwest = { version = "0.12.9", features = [
   "blocking",
   "json",
-  "native-tls",
-], default-features = false }
+  "rustls-tls-native-roots",
+] }
 serde_json = "1.0.133"
